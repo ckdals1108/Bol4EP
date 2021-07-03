@@ -1,18 +1,9 @@
 import './app.css';
+import Habits from './components/habits';
 
 function App() {
-    const name ='Bol4EP';
-    return (
-        <>
-        <h1>Hello {name} :)</h1>
-        {name && <h1>Hello!</h1>}
-        {
-            ['♥', '★'].map(item => (
-            <h1>{item}</h1>
-            ))}
+    return <Habits />;
 
-        </>
-    );
 }
 
 export default App;
